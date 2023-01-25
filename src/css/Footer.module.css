@@ -1,0 +1,32 @@
+.container {
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+    gap: 10px;
+    margin-bottom: 30px;
+    font-size: 0.8rem;
+}
+
+.social__icons {
+    font-size: 1.5rem;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fb, .ig, .mail {
+    cursor: pointer;
+    color: black;
+}

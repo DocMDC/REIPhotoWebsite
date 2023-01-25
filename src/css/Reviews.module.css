@@ -1,0 +1,103 @@
+
+.container {
+    min-height: 40vh;
+    background-color: #e0cfc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    height: 70%;
+    width: 70%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2px;
+    grid-template-areas: 
+    "Rone Rtwo Rthree" 
+    "Rone Rtitle Rthree" 
+    "Rone Rfour Rthree";
+    background-color: #faf9f8;
+    padding: 30px;
+    font-family: var(--font-secondary);
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.review__one {
+    grid-area: Rone;
+    text-align: center;
+}
+
+.review__two {
+    grid-area: Rtwo;
+    text-align: center;
+}
+
+.review__three {
+    grid-area: Rthree;
+    text-align: center;
+}
+
+.review__four {
+    grid-area: Rfour;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.review__title {
+    grid-area: Rtitle;
+    font-size: 2rem;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: var(--font-primary);
+}
+
+@media (width <= 1500px) {
+    .review__title {
+        margin: 20px 10px 0px;
+    }
+}
+
+@media (width <= 1275px) {
+    .review__one, .review__two, .review__three, .review__four {
+        font-size: 0.8rem;
+    }
+
+    .review__title {
+        font-size: 1.5rem;
+    }
+
+    .review__title {
+        margin: 10px 10px 5px 10px;
+    }
+}
+
+@media (width <=1050px) {
+    .review__one, .review__two, .review__three, .review__four {
+        font-size: 0.7rem;
+    }
+
+    .review__title {
+        font-size: 1rem;
+        margin: 10px;
+    }
+}
+
+@media (width <= 750px) {
+    .content {
+        width: 85%;
+        height: 85%;
+    }
+}
+
+@media (width <=650px) {
+    .review__title {
+        margin: 20px;
+    }
+}

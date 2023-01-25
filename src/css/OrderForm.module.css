@@ -1,0 +1,167 @@
+.title__container {
+    height: 180px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-primary);
+    letter-spacing: 15px;
+}
+
+.line {
+    background-color: var(--clr-tan);
+    height: 3px;
+    width: 70px;
+    margin-top: 5px;
+}
+
+.form__container {
+    height: auto;
+    background-color: var(--clr-tan);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 1200px;
+    gap: 10px;
+    font-family: var(--font-primary);
+}
+
+.form__info, .form__listing {
+    margin-bottom: 40px;
+}
+
+.form__info > h2, .form__listing > h2, .form__schedule > h2  {
+    margin-bottom: 30px;
+    font-family: var(--font-primary);
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.form__info__top, .form__info__bottom, .form__listing__top, .form__listing__middle, .form__listing__bottom {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.checkboxes__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.client {
+    margin-right: 20px;
+}
+
+.client__checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.first, .last, .email, .phone, .address, .city, .state, .beds, .baths, .price, .notes {
+    border: none;
+    background-color: var(--clr-darkgray);
+    font-size: 1.5rem;
+    height: 50px;
+    width: 100%;
+}
+
+.form__schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form__content {
+    display: flex;
+}
+
+.schedule__dates {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 35%;
+    margin: 20px 0px;
+}
+
+.schedule__notes {
+    width: 65%;
+    height: 100%;
+    margin: 10px 0px;
+}
+
+.preferredDate, .alternativeDate {
+    width: 400px;
+    height: 75px;
+    font-size: 1.5rem;
+    font-family: var(--font-primary);
+    border: none;
+    background-color: var(--clr-darkgray);
+}
+
+textarea {
+    resize: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 300px;
+    height: 75px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+@media (width <=1300px) {
+    form {
+        width: 450px;
+    } 
+
+    .form__info__top, .form__info__bottom, .form__listing__top, .form__listing__middle, .form__listing__bottom {
+        display: block;
+        margin: 0;
+    }
+
+    .first, .last, .email, .phone, .address, .city, .state, .beds, .baths, .price {
+        margin-bottom: 10px;
+    }
+
+    .form__content {
+        flex-direction: column;
+    }
+
+    .schedule__dates {
+        width: 100%;
+    }
+
+    .alternativeDate, .preferredDate {
+        width: 100%;
+    }
+
+    .schedule__notes {
+        width: 100%;
+    }
+}
+

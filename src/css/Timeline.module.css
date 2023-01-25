@@ -1,0 +1,87 @@
+.container {
+    background-color: var(--clr-darkgray);
+    height: 300px;
+    padding: 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    height: 300px;
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-1%);
+    height: 1px;
+    background-color: black;
+    z-index: 1;
+}
+
+.order, .confirm, .meet, .edit, .payment, .delivery {
+    height: 200px;
+    width: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    padding: 0px 20px;
+    margin: 0px 2px;
+}
+
+.order__one, .order__two, .order__three, .confirm__one, .confirm__two, .confirm__three, .meet__one, .meet__two, .meet__three, .edit__one, .edit__two, .edit__three, .payment__one, .payment__two, .payment__three, .delivery__one, .delivery__two, .delivery__three {
+    width: 205px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+@media (width <= 1300px) {
+    .container {
+        height: auto;
+    }
+
+    .content {
+        height: auto;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .order, .confirm, .meet, .edit, .payment, .delivery {
+        flex-direction: row;
+        width: 400px;
+        justify-content: space-between;
+    }
+
+    .line {
+        top: 20px;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-1px);
+        width: 1px;
+        height: 95%;
+        background-color: black;
+        z-index: 1;
+    }
+}
