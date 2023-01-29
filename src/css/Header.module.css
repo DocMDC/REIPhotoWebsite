@@ -3,6 +3,10 @@
     color: black;
 }
 
+.links:hover {
+    color:rgba(0, 0, 0, 0.5);
+}
+
 .container {
     height: 100px;
     display: flex;

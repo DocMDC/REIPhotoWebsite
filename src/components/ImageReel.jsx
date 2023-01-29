@@ -22,8 +22,6 @@ export default function ImageReel() {
         countC >= 6 ? setCountC(0) : setCountC(countC + 1)
     }
 
-    console.log(count, countB, countC)
-
     useEffect(() => {
         function monitorWidth() {
             setWindowWidth(window.innerWidth)

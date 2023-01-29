@@ -11,7 +11,7 @@ export default function Timeline() {
                         <h2>Order</h2>
                     </div>
                     <div className={TimelineCSS.order__two}>
-                        <div className={TimelineCSS.circle}></div>
+                        <div className={TimelineCSS.circle}>1</div>
                     </div>
                     <div className={TimelineCSS.order__three}>
                         <p>Submit your order with the preferred date</p>
@@ -22,7 +22,7 @@ export default function Timeline() {
                             <h2>Confirm</h2>
                         </div>
                         <div className={TimelineCSS.confirm__two}>
-                            <div className={TimelineCSS.circle}></div>
+                            <div className={TimelineCSS.circle}>2</div>
                         </div>
                         <div className={TimelineCSS.confirm__three}>
                             <p>We'll contact you to schedule an appointment</p>
@@ -33,7 +33,7 @@ export default function Timeline() {
                             <h2>Meet</h2>
                         </div>
                         <div className={TimelineCSS.meet__two}>
-                            <div className={TimelineCSS.circle}></div>
+                            <div className={TimelineCSS.circle}>3</div>
                         </div>
                         <div className={TimelineCSS.meet__three}>
                             <p>We'll meet you on the day of the shoot</p>
@@ -44,7 +44,7 @@ export default function Timeline() {
                             <h2>Edit</h2>
                         </div>
                         <div className={TimelineCSS.edit__two}>
-                            <div className={TimelineCSS.circle}></div>
+                            <div className={TimelineCSS.circle}>4</div>
                         </div>
                         <div className={TimelineCSS.edit__three}>
                             <p>Our editors will polish your photos</p>
@@ -55,7 +55,7 @@ export default function Timeline() {
                             <h2>Payment</h2>
                         </div>
                         <div className={TimelineCSS.payment__two}>
-                            <div className={TimelineCSS.circle}></div>
+                            <div className={TimelineCSS.circle}>5</div>
                         </div>
                         <div className={TimelineCSS.payment__three}>
                             <p>An invoice will be sent to your email address</p>
@@ -66,7 +66,7 @@ export default function Timeline() {
                             <h2>Delivery</h2>
                         </div>
                         <div className={TimelineCSS.delivery__two}>
-                            <div className={TimelineCSS.circle}></div>
+                            <div className={TimelineCSS.circle}>6</div>
                         </div>
                         <div className={TimelineCSS.delivery__three}>
                             <p>Your photos will be delivered</p>

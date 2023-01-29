@@ -1,4 +1,4 @@
-import React, {useState, useContext} from "react"
+import React, {useContext} from "react"
 import {Link} from "../../node_modules/react-router-dom"
 import AltHeaderCSS from "../css/AltHeader.module.css"
 import {FaBars} from "react-icons/fa"
