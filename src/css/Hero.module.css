@@ -6,12 +6,6 @@
     gap: 20px;
 }
 
-.line {
-    width: 200px;
-    height: 4px;
-    margin-bottom: 20px;
-}
-
 .title {
     font-size: 3rem;
     font-family: var(--font-secondary);
