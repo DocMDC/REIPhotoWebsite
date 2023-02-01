@@ -73,3 +73,22 @@ h4 {
         width: 60%;
     }
 }
+
+@media (width <= 500px) {
+    .title__container > h1{
+        font-size: 1.5rem;
+    }
+
+    .content__container {
+        padding: 10px;
+    }
+
+    .content__text {
+        padding: 0px;
+        width: 90%;
+    }
+
+    .content__text > h1 {
+        font-size: 1.5rem;
+    }
+}

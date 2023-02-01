@@ -46,3 +46,10 @@
     width: 300px;
     margin: 0px 20px;
 }
+
+@media (width <= 500px) {
+    .responsive__images {
+        width: 260px;
+        height: 260px;
+    }
+}

@@ -35,3 +35,13 @@
         height: 50px;
     }
 }
+
+@media (width <= 500px) {
+    .container {
+        padding: 0px 20px;
+    }
+    
+    .title {
+        text-align: center;
+    }
+}

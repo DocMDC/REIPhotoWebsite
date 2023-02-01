@@ -101,3 +101,18 @@
         margin: 20px;
     }
 }
+
+@media (width <=500px) {
+    .review__one, .review__two, .review__three, .review__four {
+        font-size: 0.5rem;
+    }
+
+    .review__title {
+        margin: 10px;
+        font-size: 0.8rem;
+    }
+
+    .content {
+        width: 100%;
+    }
+}

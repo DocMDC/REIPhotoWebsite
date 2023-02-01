@@ -165,3 +165,57 @@ button {
     }
 }
 
+@media (width <= 500px) {
+    .title__container > h1{
+        font-size: 1.5rem;
+    }
+
+    .form__container {
+        width: 100%;
+    }
+
+    form {
+        width: 320px;
+        padding: 0px 10px;
+    }
+
+    .form__info__top, .form__info__bottom, .form__listing__top, .form__listing__middle, .form__listing__bottom {
+        width: 100%;
+    }
+
+    .form__info > h2, .form__listing > h2, .form__schedule > h2 {
+        font-size: 1rem;
+    }
+
+    .first, .last, .email, .phone, .address, .city, .state, .beds, .baths, .price, .notes {
+        font-size: 1rem;
+        height: 40px;
+    }
+
+    .client {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .client__checkbox {
+        margin-bottom: 10px;
+    }
+
+    .schedule__dates > label {
+        font-size: 1rem;
+    }
+
+    .schedule__notes > textarea {
+        font-size: 1rem;
+    }
+    
+    .preferredDate, .alternativeDate {
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    button {
+        height: 50px;
+        font-size: 1.2rem;
+    }
+}

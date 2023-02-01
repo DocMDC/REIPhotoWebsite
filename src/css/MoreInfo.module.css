@@ -115,3 +115,42 @@
         width: 300px;
     }
 }
+
+@media (width <= 500px) {
+    .container {
+        padding: 20px;
+    }
+    
+    .welcome {
+        width: 100%;
+    }
+
+    .welcome__title {
+        font-size: 1rem;
+    }
+
+    .welcome__subtitle {
+        font-size: 0.7rem;
+    }
+
+    .content__container {
+        width: 100%;
+    }
+
+    .content__child__container__one {
+        padding: 0px;
+    }
+
+    .content__title {
+        font-size: 1rem;
+    }
+    
+    .content__subtitle {
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    .photo {
+        width: 280px;
+    }
+}

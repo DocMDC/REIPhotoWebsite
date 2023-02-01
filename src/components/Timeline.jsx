@@ -19,25 +19,25 @@ export default function Timeline() {
                 </div>
                 <div className={TimelineCSS.confirm}>
                     <div className={TimelineCSS.confirm__one}>
-                            <h2>Confirm</h2>
-                        </div>
-                        <div className={TimelineCSS.confirm__two}>
-                            <div className={TimelineCSS.circle}>2</div>
-                        </div>
-                        <div className={TimelineCSS.confirm__three}>
-                            <p>We'll contact you to schedule an appointment</p>
-                        </div>
+                        <h2>Confirm</h2>
+                    </div>
+                    <div className={TimelineCSS.confirm__two}>
+                        <div className={TimelineCSS.circle}>2</div>
+                    </div>
+                    <div className={TimelineCSS.confirm__three}>
+                        <p>We'll contact you to schedule an appointment</p>
+                    </div>
                 </div>
                 <div className={TimelineCSS.meet}>
                     <div className={TimelineCSS.meet__one}>
-                            <h2>Meet</h2>
-                        </div>
-                        <div className={TimelineCSS.meet__two}>
-                            <div className={TimelineCSS.circle}>3</div>
-                        </div>
-                        <div className={TimelineCSS.meet__three}>
-                            <p>We'll meet you on the day of the shoot</p>
-                        </div>
+                        <h2>Meet</h2>
+                    </div>
+                    <div className={TimelineCSS.meet__two}>
+                        <div className={TimelineCSS.circle}>3</div>
+                    </div>
+                    <div className={TimelineCSS.meet__three}>
+                        <p>We'll meet you on the day of the shoot</p>
+                    </div>
                 </div>
                 <div className={TimelineCSS.edit}>
                     <div className={TimelineCSS.edit__one}>

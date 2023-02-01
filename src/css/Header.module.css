@@ -9,6 +9,7 @@
 
 .container {
     height: 100px;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,6 +102,16 @@
         justify-content: space-around;
         align-items: flex-end;
         padding-right: 65px;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: white;
+    }
+}
+
+@media (width <= 500px) {
+    .container {
+        padding: 0px 10px;
+    }
+
+    .links {
+        font-size: 1.5rem;
     }
 }
