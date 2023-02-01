@@ -134,7 +134,7 @@ button {
     font-size: 1.5rem;
 }
 
-@media (width <=1300px) {
+@media (max-width: 1300px) {
     form {
         width: 450px;
     } 
@@ -165,7 +165,7 @@ button {
     }
 }
 
-@media (width <= 500px) {
+@media (max-width: 500px) {
     .title__container > h1{
         font-size: 1.5rem;
     }

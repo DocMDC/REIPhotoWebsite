@@ -73,7 +73,7 @@
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
 }
 
-@media (width <= 1450px) {
+@media (max-width: 1450px) {
     .welcome__title {
         font-size: 2rem;
     }
@@ -91,7 +91,7 @@
     }
 }
 
-@media (width <= 1200px) {
+@media (max-width: 1200px) {
     .photo {
         width: 400px;
     }
@@ -101,7 +101,7 @@
     }
 }
 
-@media (width <= 900px) {
+@media (max-width: 900px) {
     .container {
         height: auto;
         padding: 60px;
@@ -116,7 +116,7 @@
     }
 }
 
-@media (width <= 500px) {
+@media (max-width: 500px) {
     .container {
         padding: 20px;
     }

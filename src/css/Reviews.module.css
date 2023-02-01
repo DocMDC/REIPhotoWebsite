@@ -58,13 +58,13 @@
     font-family: var(--font-primary);
 }
 
-@media (width <= 1500px) {
+@media (max-width: 1500px) {
     .review__title {
         margin: 20px 10px 0px;
     }
 }
 
-@media (width <= 1275px) {
+@media (max-width: 1275px) {
     .review__one, .review__two, .review__three, .review__four {
         font-size: 0.8rem;
     }
@@ -78,7 +78,7 @@
     }
 }
 
-@media (width <=1050px) {
+@media (max-width: 1050px) {
     .review__one, .review__two, .review__three, .review__four {
         font-size: 0.7rem;
     }
@@ -89,20 +89,20 @@
     }
 }
 
-@media (width <= 750px) {
+@media (max-width: 750px) {
     .content {
         width: 85%;
         height: 85%;
     }
 }
 
-@media (width <=650px) {
+@media (max-width: 650px) {
     .review__title {
         margin: 20px;
     }
 }
 
-@media (width <=500px) {
+@media (max-width: 500px) {
     .review__one, .review__two, .review__three, .review__four {
         font-size: 0.5rem;
     }

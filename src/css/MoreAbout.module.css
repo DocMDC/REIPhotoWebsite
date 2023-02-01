@@ -56,7 +56,7 @@ h4 {
     width: 100%;
 }
 
-@media (width <=1000px) {
+@media (max-width: 1000px) {
     .content__container {
         height: auto;
         display: flex;
@@ -74,7 +74,7 @@ h4 {
     }
 }
 
-@media (width <= 500px) {
+@media (max-width: 500px) {
     .title__container > h1{
         font-size: 1.5rem;
     }

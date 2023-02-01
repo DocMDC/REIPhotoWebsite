@@ -43,7 +43,7 @@
 }
 
 
-@media (width <= 1400px) {
+@media (max-width: 1400px) {
     .nav__right {
         width: 40%;
     }
@@ -53,7 +53,7 @@
     }
 }
 
-@media (width <=1000px) {
+@media (max-width: 1000px) {
     .nav__right {
         width: 50%;
     }
@@ -67,7 +67,7 @@
     }
 }
 
-@media (width <=700px) {
+@media (max-width: 700px) {
     .nav__right {
         display: none;
     }
@@ -106,7 +106,7 @@
     }
 }
 
-@media (width <= 500px) {
+@media (max-width: 500px) {
     .container {
         padding: 0px 10px;
     }
